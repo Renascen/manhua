@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:47:"D:\manhua/application/cms\view\index\index.html";i:1513761627;s:47:"D:\manhua/application/cms\view\public\base.html";i:1513761627;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:47:"D:\manhua/application/cms\view\index\index.html";i:1513761628;s:47:"D:\manhua/application/cms\view\public\base.html";i:1513761628;}*/ ?>
 <!DOCTYPE html>
 <html>
 

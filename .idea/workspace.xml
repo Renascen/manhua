@@ -11,30 +11,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/cms/view/index/index.html">
+      <file leaf-file-name="Index.php" pinned="false" current-in-tab="true">
+        <entry file="file://D:/xiaoshuo/application/cms/home/Index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3190">
-              <caret line="271" column="54" lean-forward="false" selection-start-line="271" selection-start-column="54" selection-end-line="271" selection-end-column="54" />
-              <folding />
+            <state relative-caret-position="330">
+              <caret line="94" column="14" lean-forward="false" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
+              <folding>
+                <marker date="1513847102435" expanded="true" signature="7600:7724" ph="select id,st... ien_free_limit" />
+                <marker date="1513847102435" expanded="true" signature="8789:9057" ph="select price... ien_book" />
+                <marker date="1513847102435" expanded="true" signature="8920:9010" ph="select disti... ien_free_limit_book" />
+                <marker date="1513847102435" expanded="true" signature="9487:9896" ph="select price... ien_book" />
+                <marker date="1513847102435" expanded="true" signature="9638:9728" ph="select disti... ien_free_limit_book" />
+                <marker date="1513847102435" expanded="true" signature="9757:9852" ph="select bid,s... ien_chapter" />
+                <marker date="1513847102435" expanded="true" signature="13043:13122" ph="select tstyp... ien_book_sort" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/cms/home/Index.php">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://D:/xiaoshuo/application/cms/view/index/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="207" column="57" lean-forward="false" selection-start-line="207" selection-start-column="57" selection-end-line="207" selection-end-column="57" />
-              <folding>
-                <marker date="1513736726378" expanded="true" signature="6239:6363" ph="select id,st... ien_free_limit" />
-                <marker date="1513736726378" expanded="true" signature="7418:7685" ph="select price... ien_book" />
-                <marker date="1513736726378" expanded="true" signature="7548:7638" ph="select disti... ien_free_limit_book" />
-                <marker date="1513736726378" expanded="true" signature="8115:8523" ph="select price... ien_book" />
-                <marker date="1513736726378" expanded="true" signature="8265:8355" ph="select disti... ien_free_limit_book" />
-                <marker date="1513736726378" expanded="true" signature="8384:8479" ph="select bid,s... ien_chapter" />
-                <marker date="1513736726378" expanded="true" signature="10650:10729" ph="select tstyp... ien_book_sort" />
-              </folding>
+            <state relative-caret-position="396">
+              <caret line="46" column="26" lean-forward="false" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -50,8 +50,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ipt</find>
-      <find>__MODULE_IMG__</find>
       <find>强关</find>
       <find>$pictureCfg</find>
       <find>content</find>
@@ -80,6 +78,8 @@
       <find>acc</find>
       <find>top</find>
       <find>全部</find>
+      <find>banner</find>
+      <find>notice</find>
     </findStrings>
     <replaceStrings>
       <replace>src=&quot;__HOME_IMG__/img/</replace>
@@ -95,8 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/application/index/view/index.html" />
-        <option value="$PROJECT_DIR$/application/cms/index/index1.php" />
         <option value="$PROJECT_DIR$/application/cms/index/index.php" />
         <option value="D:/ind/application/config.php" />
         <option value="$PROJECT_DIR$/vendor/overtrue/wechat/src/Js/Js.php" />
@@ -146,6 +144,8 @@
         <option value="D:/dlmh/application/cms/home/Index.php" />
         <option value="$PROJECT_DIR$/application/cms/home/Index.php" />
         <option value="$PROJECT_DIR$/application/cms/view/index/index.html" />
+        <option value="D:/xiaoshuo/application/cms/view/index/index.html" />
+        <option value="D:/xiaoshuo/application/cms/home/Index.php" />
       </list>
     </option>
   </component>
@@ -184,6 +184,50 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="D:\xiaoshuo" type="cbb8eebc:String" user="D:\xiaoshuo" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="D:\xiaoshuo" type="cbb8eebc:String" user="D:\xiaoshuo" />
+              <item name="application" type="cbb8eebc:String" user="application" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="D:\xiaoshuo" type="cbb8eebc:String" user="D:\xiaoshuo" />
+              <item name="application" type="cbb8eebc:String" user="application" />
+              <item name="cms" type="cbb8eebc:String" user="cms" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="D:\xiaoshuo" type="cbb8eebc:String" user="D:\xiaoshuo" />
+              <item name="application" type="cbb8eebc:String" user="application" />
+              <item name="cms" type="cbb8eebc:String" user="cms" />
+              <item name="home" type="cbb8eebc:String" user="home" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="D:\xiaoshuo" type="cbb8eebc:String" user="D:\xiaoshuo" />
+              <item name="application" type="cbb8eebc:String" user="application" />
+              <item name="cms" type="cbb8eebc:String" user="cms" />
+              <item name="view" type="cbb8eebc:String" user="view" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="D:\xiaoshuo" type="cbb8eebc:String" user="D:\xiaoshuo" />
+              <item name="application" type="cbb8eebc:String" user="application" />
+              <item name="cms" type="cbb8eebc:String" user="cms" />
+              <item name="view" type="cbb8eebc:String" user="view" />
+              <item name="index" type="cbb8eebc:String" user="index" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -212,40 +256,11 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="test" type="cbb8eebc:String" user="test" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="test" type="cbb8eebc:String" user="test" />
-              <item name="application" type="cbb8eebc:String" user="application" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="test" type="cbb8eebc:String" user="test" />
-              <item name="application" type="cbb8eebc:String" user="application" />
-              <item name="cms" type="cbb8eebc:String" user="cms" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="test" type="cbb8eebc:String" user="test" />
-              <item name="application" type="cbb8eebc:String" user="application" />
-              <item name="cms" type="cbb8eebc:String" user="cms" />
-              <item name="home" type="cbb8eebc:String" user="home" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/dlmh" />
+    <property name="last_opened_file_path" value="D:/xiaoshuo" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
@@ -315,17 +330,18 @@
       <workItem from="1513676845799" duration="6472000" />
       <workItem from="1513684697941" duration="32000" />
       <workItem from="1513736086840" duration="935000" />
+      <workItem from="1513840311999" duration="3136000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="194450000" />
+    <option name="totallyTimeSpent" value="197586000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10364583" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14375" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -357,20 +373,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/dlmh/application/user/admin/Publics.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-911">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/dlmh/application/user/admin/Index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/dlmh/application/install/controller/Index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -403,7 +405,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-31">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -495,7 +496,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3837">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -503,7 +503,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -511,7 +510,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -526,7 +524,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -534,7 +531,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-14551">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -542,7 +538,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4607">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -550,7 +545,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -558,7 +552,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -566,7 +559,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1131">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -574,7 +566,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-198">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -582,7 +573,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2376">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -660,7 +650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="4" column="2" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -682,7 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4554">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -690,7 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4510">
           <caret line="217" column="45" lean-forward="false" selection-start-line="217" selection-start-column="45" selection-end-line="217" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -698,7 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -706,7 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
           <caret line="40" column="10" lean-forward="true" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -714,15 +699,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="233" column="7" lean-forward="false" selection-start-line="233" selection-start-column="7" selection-end-line="234" selection-end-column="14" />
-          <folding>
-            <marker date="1513685257634" expanded="true" signature="7515:7639" ph="select id,st... ien_free_limit" />
-            <marker date="1513685257634" expanded="true" signature="8704:8972" ph="select price... ien_book" />
-            <marker date="1513685257634" expanded="true" signature="8835:8925" ph="select disti... ien_free_limit_book" />
-            <marker date="1513685257634" expanded="true" signature="9402:9811" ph="select price... ien_book" />
-            <marker date="1513685257634" expanded="true" signature="9553:9643" ph="select disti... ien_free_limit_book" />
-            <marker date="1513685257634" expanded="true" signature="9672:9767" ph="select bid,s... ien_chapter" />
-            <marker date="1513685257634" expanded="true" signature="13000:13079" ph="select tstyp... ien_book_sort" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/cms/view/index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3696">
+          <caret line="168" column="0" lean-forward="false" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -730,23 +714,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="207" column="57" lean-forward="false" selection-start-line="207" selection-start-column="57" selection-end-line="207" selection-end-column="57" />
-          <folding>
-            <marker date="1513736726378" expanded="true" signature="6239:6363" ph="select id,st... ien_free_limit" />
-            <marker date="1513736726378" expanded="true" signature="7418:7685" ph="select price... ien_book" />
-            <marker date="1513736726378" expanded="true" signature="7548:7638" ph="select disti... ien_free_limit_book" />
-            <marker date="1513736726378" expanded="true" signature="8115:8523" ph="select price... ien_book" />
-            <marker date="1513736726378" expanded="true" signature="8265:8355" ph="select disti... ien_free_limit_book" />
-            <marker date="1513736726378" expanded="true" signature="8384:8479" ph="select bid,s... ien_chapter" />
-            <marker date="1513736726378" expanded="true" signature="10650:10729" ph="select tstyp... ien_book_sort" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/cms/view/index/index.html">
+    <entry file="file://D:/xiaoshuo/application/cms/view/index/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3190">
-          <caret line="271" column="54" lean-forward="false" selection-start-line="271" selection-start-column="54" selection-end-line="271" selection-end-column="54" />
+        <state relative-caret-position="396">
+          <caret line="46" column="26" lean-forward="false" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="26" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/xiaoshuo/application/cms/home/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="94" column="14" lean-forward="false" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
+          <folding>
+            <marker date="1513847102435" expanded="true" signature="7600:7724" ph="select id,st... ien_free_limit" />
+            <marker date="1513847102435" expanded="true" signature="8789:9057" ph="select price... ien_book" />
+            <marker date="1513847102435" expanded="true" signature="8920:9010" ph="select disti... ien_free_limit_book" />
+            <marker date="1513847102435" expanded="true" signature="9487:9896" ph="select price... ien_book" />
+            <marker date="1513847102435" expanded="true" signature="9638:9728" ph="select disti... ien_free_limit_book" />
+            <marker date="1513847102435" expanded="true" signature="9757:9852" ph="select bid,s... ien_chapter" />
+            <marker date="1513847102435" expanded="true" signature="13043:13122" ph="select tstyp... ien_book_sort" />
+          </folding>
         </state>
       </provider>
     </entry>
