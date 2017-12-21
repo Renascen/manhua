@@ -1,0 +1,294 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:44:"D:\test/application/cms\view\index\many.html";i:1513655818;s:45:"D:\test/application/cms\view\public\base.html";i:1513598199;}*/ ?>
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>更多</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta content="yes" name="apple-mobile-web-app-capable" />
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+	<meta content="telephone=no" name="format-detection" />
+	
+	<link rel="shortcut icon" href="__ADMIN_IMG__/favicons/favicon.ico">
+	<link rel="stylesheet" href="__MODULE_CSS__/vendor.css">
+	<link rel="stylesheet" href="__MODULE_CSS__/front.css?v1.4.0}">
+	<link href="__MODULE_CSS__/font_apds0v8n2bhp8pvi.css" rel="stylesheet">
+	<link rel="stylesheet" href="__MODULE_CSS__/common.css">
+	<link rel="stylesheet" href="__MODULE_CSS__/animate.min.css">
+	<link rel="stylesheet" href="__MODULE_CSS__/jquery.alertable.css">
+	<link rel="stylesheet" href="__MODULE_CSS__/main.css?v1.4.1<?php echo time(); ?>">
+	<link rel="stylesheet" type="text/css" href="__MODULE_CSS__/base.css" />
+	<link rel="stylesheet" type="text/css" href="__MODULE_CSS__/mui.min.css" />
+	<link rel="stylesheet" type="text/css" href="__MODULE_CSS__/introduct.css" />
+	<link rel="stylesheet" type="text/css" href="__MODULE_CSS__/index.css" />
+	
+		<link rel="stylesheet" type="text/css" href="__MODULE_CSS__/base.css" />
+		<link rel="stylesheet" type="text/css" href="__MODULE_CSS__/mui.min.css" />
+		<link rel="stylesheet" type="text/css" href="__MODULE_CSS__/many.css" />
+		
+	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
+	<script src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+	<script src="__MODULE_JS__/fontSize.js"></script>
+	<script src="__MODULE_JS__/mui.js"></script>
+	<script src="__MODULE_JS__/vendor.js?20171106"></script>
+	<script src="__MODULE_JS__/jquery.alertable.min.js"></script>
+	<script src="__MODULE_JS__/app.js"></script>
+	<script src="__MODULE_JS__/jquerysession.js"></script>
+	<script src="__MODULE_JS__/jquery-1.8.3.min.js"></script>
+	
+
+		<script src="__MODULE_JS__/fontSize.js"></script>
+		
+	
+		<style type="text/css">
+			.search_kuang{
+				background: url(img/img-png/suosuokuang.png)no-repeat center left;
+				background-size: 5.75rem 0.7rem;
+			}
+			.list_r_two>span{
+				background: url(__MODULE_IMG__/img-png/fenlei.png)no-repeat center left;
+				background-size: 0.52rem 0.25rem;
+			}
+			.list_zan{
+				background: url(__MODULE_IMG__/img-png/zan.png)no-repeat center left;
+				background-size: 0.20rem 0.20rem;
+			}
+			.list_msg{
+				background: url(__MODULE_IMG__/img-png/pinglun.png)no-repeat center left;
+				background-size: 0.20rem 0.20rem;
+			}
+			.search_content{
+				margin-top: 0.85rem;
+			}
+		</style>
+		
+	</head>
+
+	<body>
+	
+	<header id="header" class="clear">
+		<div class="fl header_left">
+			<a href="<?php echo url('index/index'); ?>"><img src="__MODULE_IMG__/img-png/doulaiicon.png" alt="" /></a>
+		</div>
+		<div class="fr header_right">
+			<ul>
+				<!--{block name="search"}-->
+				<li class="list_one">
+					<a href="<?php echo url('cms/search/index'); ?>"><img src="__MODULE_IMG__/img-png/sousuo.png" /></a>
+				</li>
+				<!--{/block}-->
+				<li class="fengge">|</li>
+				<li class="list_two">
+					<a href="<?php echo url('cms/user/booksheet'); ?>"><img src="__MODULE_IMG__/img-png/shujia.png" /><span>书架</span></a>
+				</li>
+				<li class="fengge">|</li>
+				<li class="list_thr">
+					<a href="<?php echo url('user/index'); ?>"><img src="__MODULE_IMG__/img-png/wode.png" /></a>
+				</li>
+			</ul>
+		</div>
+	</header>
+	
+
+
+	
+	
+
+
+	<body>
+		<div class="search_content">
+			<div class="search_list">
+				<a href="">
+					<div class="fl search_img">
+						<img src="__MODULE_IMG__/img-big/33.jpg"/>
+					</div>
+					<div class="fl search_list_r">
+						<p class="list_r_one">黄金神威</p>
+						<p class="list_r_two">
+							<span>少年</span>
+							<span>热血</span>
+							<span>三国</span>
+						</p>
+						<p class="list_r_thr">
+							<img src="__MODULE_IMG__/img-png/touxiangtubiao.png"/>
+							野田サトル
+						</p>
+						<p class="list_r_four">
+							<span class="list_zan">1306</span>
+							<span class="list_msg">4531</span>
+						</p>
+					</div>
+				</a>
+			</div>
+			<div class="search_list">
+				<a href="">
+					<div class="fl search_img">
+						<img src="__MODULE_IMG__/img-big/33.jpg"/>
+					</div>
+					<div class="fl search_list_r">
+						<p class="list_r_one">黄金神威</p>
+						<p class="list_r_two">
+							<span>少年</span>
+							<span>热血</span>
+							<span>三国</span>
+						</p>
+						<p class="list_r_thr">
+							<img src="__MODULE_IMG__/img-png/touxiangtubiao.png"/>
+							野田サトル
+						</p>
+						<p class="list_r_four">
+							<span class="list_zan">1306</span>
+							<span class="list_msg">4531</span>
+						</p>
+					</div>
+				</a>
+			</div>
+			<div class="search_list">
+				<a href="">
+					<div class="fl search_img">
+						<img src="__MODULE_IMG__/img-big/33.jpg"/>
+					</div>
+					<div class="fl search_list_r">
+						<p class="list_r_one">黄金神威</p>
+						<p class="list_r_two">
+							<span>少年</span>
+							<span>热血</span>
+							<span>三国</span>
+						</p>
+						<p class="list_r_thr">
+							<img src="__MODULE_IMG__/img-png/touxiangtubiao.png"/>
+							野田サトル
+						</p>
+						<p class="list_r_four">
+							<span class="list_zan">1306</span>
+							<span class="list_msg">4531</span>
+						</p>
+					</div>
+				</a>
+			</div>
+			<div class="search_list">
+				<a href="">
+					<div class="fl search_img">
+						<img src="__MODULE_IMG__/img-big/33.jpg"/>
+					</div>
+					<div class="fl search_list_r">
+						<p class="list_r_one">黄金神威</p>
+						<p class="list_r_two">
+							<span>少年</span>
+							<span>热血</span>
+							<span>三国</span>
+						</p>
+						<p class="list_r_thr">
+							<img src="__MODULE_IMG__/img-png/touxiangtubiao.png"/>
+							野田サトル
+						</p>
+						<p class="list_r_four">
+							<span class="list_zan">1306</span>
+							<span class="list_msg">4531</span>
+						</p>
+					</div>
+				</a>
+			</div>
+			<div class="search_list">
+				<a href="">
+					<div class="fl search_img">
+						<img src="__MODULE_IMG__/img-big/33.jpg"/>
+					</div>
+					<div class="fl search_list_r">
+						<p class="list_r_one">黄金神威</p>
+						<p class="list_r_two">
+							<span>少年</span>
+							<span>热血</span>
+							<span>三国</span>
+						</p>
+						<p class="list_r_thr">
+							<img src="__MODULE_IMG__/img-png/touxiangtubiao.png"/>
+							野田サトル
+						</p>
+						<p class="list_r_four">
+							<span class="list_zan">1306</span>
+							<span class="list_msg">4531</span>
+						</p>
+					</div>
+				</a>
+			</div>
+			<div class="search_list">
+				<a href="">
+					<div class="fl search_img">
+						<img src="__MODULE_IMG__/img-big/33.jpg"/>
+					</div>
+					<div class="fl search_list_r">
+						<p class="list_r_one">黄金神威</p>
+						<p class="list_r_two">
+							<span>少年</span>
+							<span>热血</span>
+							<span>三国</span>
+						</p>
+						<p class="list_r_thr">
+							<img src="__MODULE_IMG__/img-png/touxiangtubiao.png"/>
+							野田サトル
+						</p>
+						<p class="list_r_four">
+							<span class="list_zan">1306</span>
+							<span class="list_msg">4531</span>
+						</p>
+					</div>
+				</a>
+			</div>
+			<div class="search_list">
+				<a href="">
+					<div class="fl search_img">
+						<img src="__MODULE_IMG__/img-big/33.jpg"/>
+					</div>
+					<div class="fl search_list_r">
+						<p class="list_r_one">黄金神威</p>
+						<p class="list_r_two">
+							<span>少年</span>
+							<span>热血</span>
+							<span>三国</span>
+						</p>
+						<p class="list_r_thr">
+							<img src="__MODULE_IMG__/img-png/touxiangtubiao.png"/>
+							野田サトル
+						</p>
+						<p class="list_r_four">
+							<span class="list_zan">1306</span>
+							<span class="list_msg">4531</span>
+						</p>
+					</div>
+				</a>
+			</div>
+			<div class="search_list">
+				<a href="">
+					<div class="fl search_img">
+						<img src="__MODULE_IMG__/img-big/33.jpg"/>
+					</div>
+					<div class="fl search_list_r">
+						<p class="list_r_one">黄金神威</p>
+						<p class="list_r_two">
+							<span>少年</span>
+							<span>热血</span>
+							<span>三国</span>
+						</p>
+						<p class="list_r_thr">
+							<img src="__MODULE_IMG__/img-png/touxiangtubiao.png"/>
+							野田サトル
+						</p>
+						<p class="list_r_four">
+							<span class="list_zan">1306</span>
+							<span class="list_msg">4531</span>
+						</p>
+					</div>
+				</a>
+			</div>
+		</div>
+	</body>
+	
+
+
+	<script src="__MODULE_JS__/mui.js"></script>
+	<script src="__MODULE_JS__/jquery-1.8.3.min.js"></script>
+	
+	</body>
+	</html>

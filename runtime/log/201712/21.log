@@ -1,0 +1,1186 @@
+---------------------------------------------------------------
+[ 2017-12-21T10:06:11+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] local.manhua.com/ [运行时间：0.534978s][吞吐率：1.87req/s] [内存消耗：2,576.96kb] [文件加载：70]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LANG ] D:\manhua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'local.manhua.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.234070s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Hook @app_begin [ RunTime:0.111605s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\manhua\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.107759s ] mysql:dbname=comic_huotun_com;host=39.108.119.232;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_config` [ RunTime:0.023533s ]
+[ sql ] [ SQL ] SELECT `name`,`value`,`type` FROM `ien_admin_config` [ RunTime:0.017528s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_module` [ RunTime:0.016854s ]
+[ sql ] [ SQL ] SELECT `name`,`config` FROM `ien_admin_module` WHERE  `config` <> '' [ RunTime:0.039326s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_hook` [ RunTime:0.017051s ]
+[ sql ] [ SQL ] SELECT `name`,`status` FROM `ien_admin_hook` WHERE  `status` = 1 [ RunTime:0.016723s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_plugin` [ RunTime:0.019905s ]
+[ sql ] [ SQL ] SELECT `name`,`status` FROM `ien_admin_plugin` WHERE  `status` = 1 [ RunTime:0.017061s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_hook_plugin` [ RunTime:0.017408s ]
+[ sql ] [ SQL ] SELECT * FROM `ien_admin_hook_plugin` WHERE  `status` = 1 ORDER BY hook,sort [ RunTime:0.017328s ]
+---------------------------------------------------------------
+[ 2017-12-21T10:06:17+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php
+[ info ] local.manhua.com/admin.php [运行时间：0.024573s][吞吐率：40.70req/s] [内存消耗：1,234.40kb] [文件加载：44]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LANG ] D:\manhua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.manhua.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-21T10:06:18+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/admin
+[ info ] local.manhua.com/admin.php/admin [运行时间：0.314252s][吞吐率：3.18req/s] [内存消耗：2,793.02kb] [文件加载：73]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LANG ] D:\manhua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.manhua.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.110718s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Hook @app_begin [ RunTime:0.160373s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'ieasynet_admin ',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026157s ] mysql:dbname=comic_huotun_com;host=39.108.119.232;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_config` [ RunTime:0.015933s ]
+[ sql ] [ SQL ] SELECT `name`,`value`,`type` FROM `ien_admin_config` [ RunTime:0.016525s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_module` [ RunTime:0.018082s ]
+[ sql ] [ SQL ] SELECT `name`,`config` FROM `ien_admin_module` WHERE  `config` <> '' [ RunTime:0.020990s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_hook` [ RunTime:0.022009s ]
+[ sql ] [ SQL ] SELECT `name`,`status` FROM `ien_admin_hook` WHERE  `status` = 1 [ RunTime:0.023496s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_plugin` [ RunTime:0.023570s ]
+[ sql ] [ SQL ] SELECT `name`,`status` FROM `ien_admin_plugin` WHERE  `status` = 1 [ RunTime:0.023489s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_hook_plugin` [ RunTime:0.026626s ]
+[ sql ] [ SQL ] SELECT * FROM `ien_admin_hook_plugin` WHERE  `status` = 1 ORDER BY hook,sort [ RunTime:0.034328s ]
+---------------------------------------------------------------
+[ 2017-12-21T10:06:18+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/user/publics/signin.html
+[ info ] local.manhua.com/admin.php/user/publics/signin.html [运行时间：0.244104s][吞吐率：4.10req/s] [内存消耗：2,820.08kb] [文件加载：73]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LANG ] D:\manhua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'publics',
+    2 => 'signin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jvmcjqg7vierss776ueddeuv30',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.manhua.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.098149s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Hook @app_begin [ RunTime:0.095165s ]
+[ info ] [ RUN ] app\user\admin\Publics->signin[ D:\manhua\application\user\admin\Publics.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'ieasynet_admin ',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\manhua/application/user/view/admin/publics\signin.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026589s ] mysql:dbname=comic_huotun_com;host=39.108.119.232;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_config` [ RunTime:0.014421s ]
+[ sql ] [ SQL ] SELECT `name`,`value`,`type` FROM `ien_admin_config` [ RunTime:0.014215s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_module` [ RunTime:0.013995s ]
+[ sql ] [ SQL ] SELECT `name`,`config` FROM `ien_admin_module` WHERE  `config` <> '' [ RunTime:0.015163s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_hook` [ RunTime:0.014454s ]
+[ sql ] [ SQL ] SELECT `name`,`status` FROM `ien_admin_hook` WHERE  `status` = 1 [ RunTime:0.013275s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_plugin` [ RunTime:0.017527s ]
+[ sql ] [ SQL ] SELECT `name`,`status` FROM `ien_admin_plugin` WHERE  `status` = 1 [ RunTime:0.013433s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_hook_plugin` [ RunTime:0.014339s ]
+[ sql ] [ SQL ] SELECT * FROM `ien_admin_hook_plugin` WHERE  `status` = 1 ORDER BY hook,sort [ RunTime:0.015563s ]
+---------------------------------------------------------------
+[ 2017-12-21T10:06:25+08:00 ] 127.0.0.1 127.0.0.1 POST /admin.php/user/publics/signin.html
+[ info ] local.manhua.com/admin.php/user/publics/signin.html [运行时间：0.574614s][吞吐率：1.74req/s] [内存消耗：2,799.31kb] [文件加载：76]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LANG ] D:\manhua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'publics',
+    2 => 'signin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jvmcjqg7vierss776ueddeuv30',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.manhua.com/admin.php/user/publics/signin.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://local.manhua.com',
+  'accept' => '*/*',
+  'content-length' => '32',
+  'connection' => 'close',
+  'host' => 'local.manhua.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'luohao',
+  'password' => 'admin88',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.144352s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Hook @app_begin [ RunTime:0.098260s ]
+[ info ] [ RUN ] app\user\admin\Publics->signin[ D:\manhua\application\user\admin\Publics.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'ieasynet_admin ',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.061751s ] mysql:dbname=comic_huotun_com;host=39.108.119.232;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_config` [ RunTime:0.016758s ]
+[ sql ] [ SQL ] SELECT `name`,`value`,`type` FROM `ien_admin_config` [ RunTime:0.016376s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_module` [ RunTime:0.015215s ]
+[ sql ] [ SQL ] SELECT `name`,`config` FROM `ien_admin_module` WHERE  `config` <> '' [ RunTime:0.017402s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_hook` [ RunTime:0.015413s ]
+[ sql ] [ SQL ] SELECT `name`,`status` FROM `ien_admin_hook` WHERE  `status` = 1 [ RunTime:0.014566s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_plugin` [ RunTime:0.015985s ]
+[ sql ] [ SQL ] SELECT `name`,`status` FROM `ien_admin_plugin` WHERE  `status` = 1 [ RunTime:0.015446s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_hook_plugin` [ RunTime:0.014974s ]
+[ sql ] [ SQL ] SELECT * FROM `ien_admin_hook_plugin` WHERE  `status` = 1 ORDER BY hook,sort [ RunTime:0.014676s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_user` [ RunTime:0.016951s ]
+[ sql ] [ SQL ] SELECT * FROM `ien_admin_user` WHERE  `username` = 'luohao'  AND `status` = 1 LIMIT 1 [ RunTime:0.018401s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_role` [ RunTime:0.015946s ]
+[ sql ] [ SQL ] SELECT `access` FROM `ien_admin_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.018687s ]
+[ sql ] [ SQL ] UPDATE `ien_admin_user`  SET `last_login_time`=1513821985,`last_login_ip`=2130706433,`update_time`=1513821985  WHERE  `id` = 107 [ RunTime:0.031835s ]
+[ sql ] [ SQL ] SELECT * FROM `ien_admin_user` WHERE  `id` = 107 LIMIT 1 [ RunTime:0.017804s ]
+[ sql ] [ SQL ] SELECT `name` FROM `ien_admin_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.020383s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_action` [ RunTime:0.016506s ]
+[ sql ] [ SQL ] SELECT * FROM `ien_admin_action` WHERE  `module` = 'user'  AND `name` = 'user_signin' LIMIT 1 [ RunTime:0.016852s ]
+---------------------------------------------------------------
+[ 2017-12-21T10:06:28+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/agent/index/index.html
+[ info ] local.manhua.com/admin.php/agent/index/index.html [运行时间：0.700573s][吞吐率：1.43req/s] [内存消耗：3,554.91kb] [文件加载：81]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LANG ] D:\manhua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'agent',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jvmcjqg7vierss776ueddeuv30',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.manhua.com/admin.php/user/publics/signin.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.manhua.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.101062s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Hook @app_begin [ RunTime:0.141746s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'ieasynet_admin ',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\agent\admin\Index->index[ D:\manhua\application\agent\admin\Index.php ]
+[ info ] [ VIEW ] D:\manhua/application/common/builder/table/layout.html [ array (
+  0 => '_admin_base_layout',
+  1 => 'system_color',
+  2 => '_top_menus',
+  3 => '_top_menus_all',
+  4 => '_sidebar_menus',
+  5 => '_location',
+  6 => 'aside',
+  7 => '_pop',
+  8 => 'page_title',
+  9 => 'page_tips',
+  10 => 'tips_type',
+  11 => 'tab_nav',
+  12 => 'hide_checkbox',
+  13 => 'extra_html',
+  14 => 'extra_js',
+  15 => 'extra_css',
+  16 => 'order_columns',
+  17 => 'filter_columns',
+  18 => 'filter_map',
+  19 => '_field_display',
+  20 => '_filter_content',
+  21 => '_filter',
+  22 => 'top_buttons',
+  23 => 'right_buttons',
+  24 => 'search',
+  25 => 'columns',
+  26 => 'pages',
+  27 => 'row_list',
+  28 => '_page_info',
+  29 => 'primary_key',
+  30 => '_table',
+  31 => 'js_list',
+  32 => 'css_list',
+  33 => 'validate',
+  34 => '_js_files',
+  35 => '_css_files',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023954s ] mysql:dbname=comic_huotun_com;host=39.108.119.232;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_config` [ RunTime:0.014654s ]
+[ sql ] [ SQL ] SELECT `name`,`value`,`type` FROM `ien_admin_config` [ RunTime:0.014581s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_module` [ RunTime:0.019700s ]
+[ sql ] [ SQL ] SELECT `name`,`config` FROM `ien_admin_module` WHERE  `config` <> '' [ RunTime:0.015198s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_hook` [ RunTime:0.016019s ]
+[ sql ] [ SQL ] SELECT `name`,`status` FROM `ien_admin_hook` WHERE  `status` = 1 [ RunTime:0.014566s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_plugin` [ RunTime:0.040256s ]
+[ sql ] [ SQL ] SELECT `name`,`status` FROM `ien_admin_plugin` WHERE  `status` = 1 [ RunTime:0.033171s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_hook_plugin` [ RunTime:0.014292s ]
+[ sql ] [ SQL ] SELECT * FROM `ien_admin_hook_plugin` WHERE  `status` = 1 ORDER BY hook,sort [ RunTime:0.016078s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_menu` [ RunTime:0.014790s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`module`,`title`,`url_value`,`url_type`,`url_target`,`icon` FROM `ien_admin_menu` WHERE  `status` = 1  AND `pid` = 0 ORDER BY sort,id LIMIT 10 [ RunTime:0.049098s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`module`,`title`,`url_value`,`url_type`,`url_target`,`icon` FROM `ien_admin_menu` WHERE  `status` = 1  AND `pid` = 0 ORDER BY sort,id [ RunTime:0.014679s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ien_admin_menu` WHERE  `pid` <> 0  AND `url_value` = 'agent/index/index' LIMIT 1 [ RunTime:0.014259s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`title`,`url_value` FROM `ien_admin_menu` [ RunTime:0.022554s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`module`,`title`,`url_value`,`url_type`,`url_target`,`icon` FROM `ien_admin_menu` WHERE  `status` = 1  AND `module` = 'agent' ORDER BY sort,id [ RunTime:0.015735s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ien_admin_menu` WHERE  `pid` <> 0  AND `url_value` = 'agent/index/index' LIMIT 1 [ RunTime:0.014487s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`title`,`url_value` FROM `ien_admin_menu` [ RunTime:0.020827s ]
+[ sql ] [ SQL ] SELECT `value` FROM `ien_admin_config` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.013522s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_notice` [ RunTime:0.016136s ]
+[ sql ] [ SQL ] SELECT * FROM `ien_notice` ORDER BY create_time desc [ RunTime:0.043092s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ien_admin_menu` WHERE  `pid` <> 0  AND `url_value` = 'agent/index/index' LIMIT 1 [ RunTime:0.015235s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`title`,`url_value` FROM `ien_admin_menu` [ RunTime:0.021377s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_attachment` [ RunTime:0.014691s ]
+[ sql ] [ SQL ] SELECT `path` FROM `ien_admin_attachment` WHERE  `id` = 376 LIMIT 1 [ RunTime:0.014585s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_user` [ RunTime:0.015366s ]
+[ sql ] [ SQL ] SELECT `avatar` FROM `ien_admin_user` WHERE  `id` = 107 LIMIT 1 [ RunTime:0.014268s ]
+[ sql ] [ SQL ] SELECT `path` FROM `ien_admin_attachment` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.014585s ]
+---------------------------------------------------------------
+[ 2017-12-21T10:06:34+08:00 ] 127.0.0.1 127.0.0.1 POST /admin.php/admin/ajax/getsidebarmenu.html
+[ info ] local.manhua.com/admin.php/admin/ajax/getsidebarmenu.html [运行时间：0.322584s][吞吐率：3.10req/s] [内存消耗：2,784.77kb] [文件加载：72]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LANG ] D:\manhua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'getsidebarmenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jvmcjqg7vierss776ueddeuv30',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.manhua.com/admin.php/agent/index/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://local.manhua.com',
+  'accept' => '*/*',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'local.manhua.com',
+)
+[ info ] [ PARAM ] array (
+  'module_id' => '1',
+  'module' => 'admin',
+  'controller' => 'index',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.107718s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Hook @app_begin [ RunTime:0.115042s ]
+[ info ] [ RUN ] app\admin\controller\Ajax->getSidebarMenu[ D:\manhua\application\admin\controller\Ajax.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'ieasynet_admin ',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.030594s ] mysql:dbname=comic_huotun_com;host=39.108.119.232;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_config` [ RunTime:0.020263s ]
+[ sql ] [ SQL ] SELECT `name`,`value`,`type` FROM `ien_admin_config` [ RunTime:0.014122s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_module` [ RunTime:0.013338s ]
+[ sql ] [ SQL ] SELECT `name`,`config` FROM `ien_admin_module` WHERE  `config` <> '' [ RunTime:0.017438s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_hook` [ RunTime:0.016346s ]
+[ sql ] [ SQL ] SELECT `name`,`status` FROM `ien_admin_hook` WHERE  `status` = 1 [ RunTime:0.016369s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_plugin` [ RunTime:0.018596s ]
+[ sql ] [ SQL ] SELECT `name`,`status` FROM `ien_admin_plugin` WHERE  `status` = 1 [ RunTime:0.015703s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_hook_plugin` [ RunTime:0.018424s ]
+[ sql ] [ SQL ] SELECT * FROM `ien_admin_hook_plugin` WHERE  `status` = 1 ORDER BY hook,sort [ RunTime:0.021941s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_menu` [ RunTime:0.014284s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`title`,`url_value` FROM `ien_admin_menu` [ RunTime:0.025956s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`module`,`title`,`url_value`,`url_type`,`url_target`,`icon` FROM `ien_admin_menu` WHERE  `status` = 1  AND `module` = 'admin' ORDER BY sort,id [ RunTime:0.015229s ]
+---------------------------------------------------------------
+[ 2017-12-21T10:06:35+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/admin/index/index.html
+[ info ] local.manhua.com/admin.php/admin/index/index.html [运行时间：0.633132s][吞吐率：1.58req/s] [内存消耗：3,233.61kb] [文件加载：83]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LANG ] D:\manhua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jvmcjqg7vierss776ueddeuv30',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.manhua.com/admin.php/agent/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.manhua.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.110629s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Hook @app_begin [ RunTime:0.096169s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'ieasynet_admin ',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\manhua\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\manhua/application/admin\view\index\index.html [ array (
+  0 => '_admin_base_layout',
+  1 => 'system_color',
+  2 => '_top_menus',
+  3 => '_top_menus_all',
+  4 => '_sidebar_menus',
+  5 => '_location',
+  6 => 'aside',
+  7 => '_pop',
+) ]
+[ info ] [ VIEW ] D:\manhua\plugins/SystemInfo/view/widget.html [ array (
+  0 => 'display',
+  1 => 'width',
+) ]
+[ info ] [ BEHAVIOR ] Run plugins\SystemInfo\SystemInfo @admin_index [ RunTime:0.049153s ]
+[ info ] [ BEHAVIOR ] Run plugins\DevTeam\DevTeam @admin_index [ RunTime:0.023244s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026859s ] mysql:dbname=comic_huotun_com;host=39.108.119.232;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_config` [ RunTime:0.019117s ]
+[ sql ] [ SQL ] SELECT `name`,`value`,`type` FROM `ien_admin_config` [ RunTime:0.016773s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_module` [ RunTime:0.018030s ]
+[ sql ] [ SQL ] SELECT `name`,`config` FROM `ien_admin_module` WHERE  `config` <> '' [ RunTime:0.015351s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_hook` [ RunTime:0.013224s ]
+[ sql ] [ SQL ] SELECT `name`,`status` FROM `ien_admin_hook` WHERE  `status` = 1 [ RunTime:0.013545s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_plugin` [ RunTime:0.014664s ]
+[ sql ] [ SQL ] SELECT `name`,`status` FROM `ien_admin_plugin` WHERE  `status` = 1 [ RunTime:0.015481s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_hook_plugin` [ RunTime:0.016250s ]
+[ sql ] [ SQL ] SELECT * FROM `ien_admin_hook_plugin` WHERE  `status` = 1 ORDER BY hook,sort [ RunTime:0.016359s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_menu` [ RunTime:0.014581s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`module`,`title`,`url_value`,`url_type`,`url_target`,`icon` FROM `ien_admin_menu` WHERE  `status` = 1  AND `pid` = 0 ORDER BY sort,id LIMIT 10 [ RunTime:0.014901s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`module`,`title`,`url_value`,`url_type`,`url_target`,`icon` FROM `ien_admin_menu` WHERE  `status` = 1  AND `pid` = 0 ORDER BY sort,id [ RunTime:0.017835s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ien_admin_menu` WHERE  `pid` <> 0  AND `url_value` = 'admin/index/index' LIMIT 1 [ RunTime:0.029692s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`title`,`url_value` FROM `ien_admin_menu` [ RunTime:0.031505s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`module`,`title`,`url_value`,`url_type`,`url_target`,`icon` FROM `ien_admin_menu` WHERE  `status` = 1  AND `module` = 'admin' ORDER BY sort,id [ RunTime:0.021957s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ien_admin_menu` WHERE  `pid` <> 0  AND `url_value` = 'admin/index/index' LIMIT 1 [ RunTime:0.015636s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`title`,`url_value` FROM `ien_admin_menu` [ RunTime:0.019184s ]
+[ sql ] [ SQL ] SELECT `value` FROM `ien_admin_config` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.015203s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_user` [ RunTime:0.013814s ]
+[ sql ] [ SQL ] SELECT `password` FROM `ien_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.013344s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_attachment` [ RunTime:0.015913s ]
+[ sql ] [ SQL ] SELECT `path` FROM `ien_admin_attachment` WHERE  `id` = 376 LIMIT 1 [ RunTime:0.019729s ]
+[ sql ] [ SQL ] SELECT `avatar` FROM `ien_admin_user` WHERE  `id` = 107 LIMIT 1 [ RunTime:0.018307s ]
+[ sql ] [ SQL ] SELECT `path` FROM `ien_admin_attachment` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.014226s ]
+[ sql ] [ SQL ] SELECT `config` FROM `ien_admin_plugin` WHERE  `name` = 'SystemInfo' LIMIT 1 [ RunTime:0.014765s ]
+[ sql ] [ SQL ] select version() as version [ RunTime:0.024748s ]
+[ sql ] [ SQL ] SELECT `config` FROM `ien_admin_plugin` WHERE  `name` = 'DevTeam' LIMIT 1 [ RunTime:0.021762s ]
+---------------------------------------------------------------
+[ 2017-12-21T10:06:35+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/admin/index/checkupdate.html
+[ info ] local.manhua.com/admin.php/admin/index/checkupdate.html [运行时间：0.279885s][吞吐率：3.57req/s] [内存消耗：2,743.56kb] [文件加载：70]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LANG ] D:\manhua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'checkupdate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jvmcjqg7vierss776ueddeuv30',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.manhua.com/admin.php/admin/index/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'local.manhua.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.109008s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Hook @app_begin [ RunTime:0.131564s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'ieasynet_admin ',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->checkUpdate[ D:\manhua\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.032942s ] mysql:dbname=comic_huotun_com;host=39.108.119.232;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_config` [ RunTime:0.017299s ]
+[ sql ] [ SQL ] SELECT `name`,`value`,`type` FROM `ien_admin_config` [ RunTime:0.014563s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_module` [ RunTime:0.014692s ]
+[ sql ] [ SQL ] SELECT `name`,`config` FROM `ien_admin_module` WHERE  `config` <> '' [ RunTime:0.016289s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_hook` [ RunTime:0.017791s ]
+[ sql ] [ SQL ] SELECT `name`,`status` FROM `ien_admin_hook` WHERE  `status` = 1 [ RunTime:0.014583s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_plugin` [ RunTime:0.014278s ]
+[ sql ] [ SQL ] SELECT `name`,`status` FROM `ien_admin_plugin` WHERE  `status` = 1 [ RunTime:0.019512s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_hook_plugin` [ RunTime:0.028811s ]
+[ sql ] [ SQL ] SELECT * FROM `ien_admin_hook_plugin` WHERE  `status` = 1 ORDER BY hook,sort [ RunTime:0.030569s ]
+---------------------------------------------------------------
+[ 2017-12-21T10:06:41+08:00 ] 127.0.0.1 127.0.0.1 POST /admin.php/admin/ajax/getsidebarmenu.html
+[ info ] local.manhua.com/admin.php/admin/ajax/getsidebarmenu.html [运行时间：0.287049s][吞吐率：3.48req/s] [内存消耗：2,784.70kb] [文件加载：72]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LANG ] D:\manhua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'getsidebarmenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jvmcjqg7vierss776ueddeuv30',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.manhua.com/admin.php/admin/index/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://local.manhua.com',
+  'accept' => '*/*',
+  'content-length' => '42',
+  'connection' => 'close',
+  'host' => 'local.manhua.com',
+)
+[ info ] [ PARAM ] array (
+  'module_id' => '4',
+  'module' => 'admin',
+  'controller' => 'system',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.092261s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Hook @app_begin [ RunTime:0.093632s ]
+[ info ] [ RUN ] app\admin\controller\Ajax->getSidebarMenu[ D:\manhua\application\admin\controller\Ajax.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'ieasynet_admin ',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025363s ] mysql:dbname=comic_huotun_com;host=39.108.119.232;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_config` [ RunTime:0.015038s ]
+[ sql ] [ SQL ] SELECT `name`,`value`,`type` FROM `ien_admin_config` [ RunTime:0.012119s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_module` [ RunTime:0.013459s ]
+[ sql ] [ SQL ] SELECT `name`,`config` FROM `ien_admin_module` WHERE  `config` <> '' [ RunTime:0.014023s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_hook` [ RunTime:0.013973s ]
+[ sql ] [ SQL ] SELECT `name`,`status` FROM `ien_admin_hook` WHERE  `status` = 1 [ RunTime:0.013709s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_plugin` [ RunTime:0.013332s ]
+[ sql ] [ SQL ] SELECT `name`,`status` FROM `ien_admin_plugin` WHERE  `status` = 1 [ RunTime:0.014491s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_hook_plugin` [ RunTime:0.015064s ]
+[ sql ] [ SQL ] SELECT * FROM `ien_admin_hook_plugin` WHERE  `status` = 1 ORDER BY hook,sort [ RunTime:0.017143s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_menu` [ RunTime:0.014341s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`title`,`url_value` FROM `ien_admin_menu` [ RunTime:0.021908s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`module`,`title`,`url_value`,`url_type`,`url_target`,`icon` FROM `ien_admin_menu` WHERE  `status` = 1  AND `module` = 'admin' ORDER BY sort,id [ RunTime:0.021499s ]
+---------------------------------------------------------------
+[ 2017-12-21T10:06:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/admin/system/index.html
+[ info ] local.manhua.com/admin.php/admin/system/index.html [运行时间：1.378427s][吞吐率：0.73req/s] [内存消耗：3,580.26kb] [文件加载：80]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LANG ] D:\manhua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'system',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jvmcjqg7vierss776ueddeuv30',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.manhua.com/admin.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.manhua.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.109370s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Hook @app_begin [ RunTime:0.104899s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'ieasynet_admin ',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\System->index[ D:\manhua\application\admin\controller\System.php ]
+[ info ] [ VIEW ] D:\manhua/application/common/builder/form/layout.html [ array (
+  0 => '_admin_base_layout',
+  1 => 'system_color',
+  2 => '_top_menus',
+  3 => '_top_menus_all',
+  4 => '_sidebar_menus',
+  5 => '_location',
+  6 => 'aside',
+  7 => '_pop',
+  8 => 'page_title',
+  9 => 'page_tips',
+  10 => 'tips_type',
+  11 => 'btn_hide',
+  12 => 'btn_title',
+  13 => 'form_items',
+  14 => 'tab_nav',
+  15 => 'post_url',
+  16 => 'form_data',
+  17 => 'extra_html',
+  18 => 'extra_js',
+  19 => 'extra_css',
+  20 => 'ajax_submit',
+  21 => 'hide_header',
+  22 => 'header_title',
+  23 => 'js_list',
+  24 => 'css_list',
+  25 => 'field_triggers',
+  26 => 'field_hide',
+  27 => 'field_values',
+  28 => '_js_files',
+  29 => '_js_init',
+  30 => '_css_files',
+  31 => '_layout',
+  32 => 'btn_extra',
+  33 => 'submit_confirm',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.027323s ] mysql:dbname=comic_huotun_com;host=39.108.119.232;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_config` [ RunTime:0.018344s ]
+[ sql ] [ SQL ] SELECT `name`,`value`,`type` FROM `ien_admin_config` [ RunTime:0.018743s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_module` [ RunTime:0.015827s ]
+[ sql ] [ SQL ] SELECT `name`,`config` FROM `ien_admin_module` WHERE  `config` <> '' [ RunTime:0.015281s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_hook` [ RunTime:0.015183s ]
+[ sql ] [ SQL ] SELECT `name`,`status` FROM `ien_admin_hook` WHERE  `status` = 1 [ RunTime:0.014814s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_plugin` [ RunTime:0.014610s ]
+[ sql ] [ SQL ] SELECT `name`,`status` FROM `ien_admin_plugin` WHERE  `status` = 1 [ RunTime:0.014169s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_hook_plugin` [ RunTime:0.018013s ]
+[ sql ] [ SQL ] SELECT * FROM `ien_admin_hook_plugin` WHERE  `status` = 1 ORDER BY hook,sort [ RunTime:0.021404s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_menu` [ RunTime:0.021388s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`module`,`title`,`url_value`,`url_type`,`url_target`,`icon` FROM `ien_admin_menu` WHERE  `status` = 1  AND `pid` = 0 ORDER BY sort,id LIMIT 10 [ RunTime:0.019608s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`module`,`title`,`url_value`,`url_type`,`url_target`,`icon` FROM `ien_admin_menu` WHERE  `status` = 1  AND `pid` = 0 ORDER BY sort,id [ RunTime:0.016119s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ien_admin_menu` WHERE  `pid` <> 0  AND `url_value` = 'admin/system/index' LIMIT 1 [ RunTime:0.013511s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`title`,`url_value` FROM `ien_admin_menu` [ RunTime:0.019664s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`module`,`title`,`url_value`,`url_type`,`url_target`,`icon` FROM `ien_admin_menu` WHERE  `status` = 1  AND `module` = 'admin' ORDER BY sort,id [ RunTime:0.016676s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ien_admin_menu` WHERE  `pid` <> 0  AND `url_value` = 'admin/system/index' LIMIT 1 [ RunTime:0.021938s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`title`,`url_value` FROM `ien_admin_menu` [ RunTime:0.019210s ]
+[ sql ] [ SQL ] SELECT `value` FROM `ien_admin_config` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.016489s ]
+[ sql ] [ SQL ] SELECT `name`,`config`,`title` FROM `ien_admin_module` WHERE  `config` <> ''  AND `status` = 1 [ RunTime:0.016070s ]
+[ sql ] [ SQL ] SELECT `name`,`title`,`tips`,`type`,`value`,`options`,`ajax_url`,`next_items`,`param`,`table`,`level`,`key`,`option`,`ak`,`format` FROM `ien_admin_config` WHERE  `group` = 'base'  AND `status` = 1 ORDER BY sort asc,id asc [ RunTime:0.014161s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_attachment` [ RunTime:0.013840s ]
+[ sql ] [ SQL ] SELECT `path` FROM `ien_admin_attachment` WHERE  `id` = 376 LIMIT 1 [ RunTime:0.014290s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_user` [ RunTime:0.013207s ]
+[ sql ] [ SQL ] SELECT `avatar` FROM `ien_admin_user` WHERE  `id` = 107 LIMIT 1 [ RunTime:0.014127s ]
+[ sql ] [ SQL ] SELECT `path` FROM `ien_admin_attachment` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.012315s ]
+[ sql ] [ SQL ] SELECT `path` FROM `ien_admin_attachment` WHERE  `id` = 376 LIMIT 1 [ RunTime:0.019841s ]
+[ sql ] [ SQL ] SELECT `path`,`thumb` FROM `ien_admin_attachment` WHERE  `id` = 376 LIMIT 1 [ RunTime:0.013286s ]
+[ sql ] [ SQL ] SELECT `path` FROM `ien_admin_attachment` WHERE  `id` = 398 LIMIT 1 [ RunTime:0.012706s ]
+[ sql ] [ SQL ] SELECT `path`,`thumb` FROM `ien_admin_attachment` WHERE  `id` = 398 LIMIT 1 [ RunTime:0.012415s ]
+---------------------------------------------------------------
+[ 2017-12-21T10:06:53+08:00 ] 127.0.0.1 127.0.0.1 POST /admin.php/admin/system/index.html
+[ info ] local.manhua.com/admin.php/admin/system/index.html [运行时间：0.577135s][吞吐率：1.73req/s] [内存消耗：2,884.74kb] [文件加载：75]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LANG ] D:\manhua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'system',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jvmcjqg7vierss776ueddeuv30',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.manhua.com/admin.php/admin/system/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://local.manhua.com',
+  'accept' => '*/*',
+  'content-length' => '708',
+  'connection' => 'close',
+  'host' => 'local.manhua.com',
+)
+[ info ] [ PARAM ] array (
+  'web_site_status' => 'on',
+  'web_site_title' => '都来看漫画',
+  'web_site_slogan' => '都来看漫画',
+  'web_site_logo' => '376',
+  'web_site_logo_text' => '',
+  'web_site_description' => '全网畅销小说每日更新，让你从此告别书荒',
+  'author_contributions' => '398',
+  'author_contributions_url' => 'http://www.baidu.com',
+  'web_site_keywords' => '火豚中文',
+  'web_site_copyright' => 'Copyright © 2017 huotun.com All rights',
+  'web_site_icp' => '琼ICP备16002303号-1',
+  'web_site_statistics' => '',
+  'web_pay_desc' => '（1元=100书币）',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.130599s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Hook @app_begin [ RunTime:0.111444s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'ieasynet_admin ',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\System->index[ D:\manhua\application\admin\controller\System.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026815s ] mysql:dbname=comic_huotun_com;host=39.108.119.232;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_config` [ RunTime:0.017016s ]
+[ sql ] [ SQL ] SELECT `name`,`value`,`type` FROM `ien_admin_config` [ RunTime:0.017460s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_module` [ RunTime:0.029262s ]
+[ sql ] [ SQL ] SELECT `name`,`config` FROM `ien_admin_module` WHERE  `config` <> '' [ RunTime:0.025260s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_hook` [ RunTime:0.016371s ]
+[ sql ] [ SQL ] SELECT `name`,`status` FROM `ien_admin_hook` WHERE  `status` = 1 [ RunTime:0.016691s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_plugin` [ RunTime:0.018360s ]
+[ sql ] [ SQL ] SELECT `name`,`status` FROM `ien_admin_plugin` WHERE  `status` = 1 [ RunTime:0.015955s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_hook_plugin` [ RunTime:0.017855s ]
+[ sql ] [ SQL ] SELECT * FROM `ien_admin_hook_plugin` WHERE  `status` = 1 ORDER BY hook,sort [ RunTime:0.017213s ]
+[ sql ] [ SQL ] SELECT `name`,`type` FROM `ien_admin_config` WHERE  `group` = 'base'  AND `status` = 1 [ RunTime:0.017956s ]
+[ sql ] [ SQL ] UPDATE `ien_admin_config`  SET `value`='1'  WHERE  `name` = 'web_site_status' [ RunTime:0.017993s ]
+[ sql ] [ SQL ] UPDATE `ien_admin_config`  SET `value`='都来看漫画'  WHERE  `name` = 'web_site_title' [ RunTime:0.015933s ]
+[ sql ] [ SQL ] UPDATE `ien_admin_config`  SET `value`='都来看漫画'  WHERE  `name` = 'web_site_slogan' [ RunTime:0.010826s ]
+[ sql ] [ SQL ] UPDATE `ien_admin_config`  SET `value`='376'  WHERE  `name` = 'web_site_logo' [ RunTime:0.009881s ]
+[ sql ] [ SQL ] UPDATE `ien_admin_config`  SET `value`='全网畅销小说每日更新，让你从此告别书荒'  WHERE  `name` = 'web_site_description' [ RunTime:0.009367s ]
+[ sql ] [ SQL ] UPDATE `ien_admin_config`  SET `value`='火豚中文'  WHERE  `name` = 'web_site_keywords' [ RunTime:0.009798s ]
+[ sql ] [ SQL ] UPDATE `ien_admin_config`  SET `value`='Copyright © 2017 huotun.com All rights'  WHERE  `name` = 'web_site_copyright' [ RunTime:0.009943s ]
+[ sql ] [ SQL ] UPDATE `ien_admin_config`  SET `value`='琼ICP备16002303号-1'  WHERE  `name` = 'web_site_icp' [ RunTime:0.010253s ]
+[ sql ] [ SQL ] UPDATE `ien_admin_config`  SET `value`=''  WHERE  `name` = 'web_site_statistics' [ RunTime:0.010606s ]
+[ sql ] [ SQL ] UPDATE `ien_admin_config`  SET `value`=''  WHERE  `name` = 'web_site_logo_text' [ RunTime:0.009524s ]
+[ sql ] [ SQL ] UPDATE `ien_admin_config`  SET `value`='398'  WHERE  `name` = 'author_contributions' [ RunTime:0.009855s ]
+[ sql ] [ SQL ] UPDATE `ien_admin_config`  SET `value`='http://www.baidu.com'  WHERE  `name` = 'author_contributions_url' [ RunTime:0.010051s ]
+[ sql ] [ SQL ] UPDATE `ien_admin_config`  SET `value`='（1元=100书币）'  WHERE  `name` = 'web_pay_desc' [ RunTime:0.010690s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_action` [ RunTime:0.019981s ]
+[ sql ] [ SQL ] SELECT * FROM `ien_admin_action` WHERE  `module` = 'admin'  AND `name` = 'system_config_update' LIMIT 1 [ RunTime:0.019192s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_log` [ RunTime:0.018489s ]
+[ sql ] [ SQL ] INSERT INTO `ien_admin_log` (`action_id` , `user_id` , `action_ip` , `model` , `record_id` , `create_time` , `remark`) VALUES (42 , 107 , 2130706433 , 'admin_config' , 0 , 1513822012 , '迷途不知返 更新了系统设置：分组(base)') [ RunTime:0.030339s ]
+---------------------------------------------------------------
+[ 2017-12-21T10:06:55+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/admin/system/index/group/base.html
+[ info ] local.manhua.com/admin.php/admin/system/index/group/base.html [运行时间：0.644511s][吞吐率：1.55req/s] [内存消耗：3,277.84kb] [文件加载：78]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LANG ] D:\manhua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'system',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jvmcjqg7vierss776ueddeuv30',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.manhua.com/admin.php/admin/system/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.manhua.com',
+)
+[ info ] [ PARAM ] array (
+  'group' => 'base',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.099892s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Hook @app_begin [ RunTime:0.112188s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'ieasynet_admin ',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\System->index[ D:\manhua\application\admin\controller\System.php ]
+[ info ] [ VIEW ] D:\manhua/application/common/builder/form/layout.html [ array (
+  0 => '_admin_base_layout',
+  1 => 'system_color',
+  2 => '_top_menus',
+  3 => '_top_menus_all',
+  4 => '_sidebar_menus',
+  5 => '_location',
+  6 => 'aside',
+  7 => '_pop',
+  8 => 'page_title',
+  9 => 'page_tips',
+  10 => 'tips_type',
+  11 => 'btn_hide',
+  12 => 'btn_title',
+  13 => 'form_items',
+  14 => 'tab_nav',
+  15 => 'post_url',
+  16 => 'form_data',
+  17 => 'extra_html',
+  18 => 'extra_js',
+  19 => 'extra_css',
+  20 => 'ajax_submit',
+  21 => 'hide_header',
+  22 => 'header_title',
+  23 => 'js_list',
+  24 => 'css_list',
+  25 => 'field_triggers',
+  26 => 'field_hide',
+  27 => 'field_values',
+  28 => '_js_files',
+  29 => '_js_init',
+  30 => '_css_files',
+  31 => '_layout',
+  32 => 'btn_extra',
+  33 => 'submit_confirm',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022994s ] mysql:dbname=comic_huotun_com;host=39.108.119.232;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_config` [ RunTime:0.015122s ]
+[ sql ] [ SQL ] SELECT `name`,`value`,`type` FROM `ien_admin_config` [ RunTime:0.016715s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_module` [ RunTime:0.014978s ]
+[ sql ] [ SQL ] SELECT `name`,`config` FROM `ien_admin_module` WHERE  `config` <> '' [ RunTime:0.017344s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_hook` [ RunTime:0.016863s ]
+[ sql ] [ SQL ] SELECT `name`,`status` FROM `ien_admin_hook` WHERE  `status` = 1 [ RunTime:0.015511s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_plugin` [ RunTime:0.017873s ]
+[ sql ] [ SQL ] SELECT `name`,`status` FROM `ien_admin_plugin` WHERE  `status` = 1 [ RunTime:0.016081s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_hook_plugin` [ RunTime:0.017107s ]
+[ sql ] [ SQL ] SELECT * FROM `ien_admin_hook_plugin` WHERE  `status` = 1 ORDER BY hook,sort [ RunTime:0.014693s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_menu` [ RunTime:0.014671s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`module`,`title`,`url_value`,`url_type`,`url_target`,`icon` FROM `ien_admin_menu` WHERE  `status` = 1  AND `pid` = 0 ORDER BY sort,id LIMIT 10 [ RunTime:0.015419s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`module`,`title`,`url_value`,`url_type`,`url_target`,`icon` FROM `ien_admin_menu` WHERE  `status` = 1  AND `pid` = 0 ORDER BY sort,id [ RunTime:0.015150s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ien_admin_menu` WHERE  `pid` <> 0  AND `url_value` = 'admin/system/index' LIMIT 1 [ RunTime:0.015104s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`title`,`url_value` FROM `ien_admin_menu` [ RunTime:0.023172s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`module`,`title`,`url_value`,`url_type`,`url_target`,`icon` FROM `ien_admin_menu` WHERE  `status` = 1  AND `module` = 'admin' ORDER BY sort,id [ RunTime:0.015707s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ien_admin_menu` WHERE  `pid` <> 0  AND `url_value` = 'admin/system/index' LIMIT 1 [ RunTime:0.014072s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`title`,`url_value` FROM `ien_admin_menu` [ RunTime:0.017955s ]
+[ sql ] [ SQL ] SELECT `value` FROM `ien_admin_config` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.015246s ]
+[ sql ] [ SQL ] SELECT `name`,`config`,`title` FROM `ien_admin_module` WHERE  `config` <> ''  AND `status` = 1 [ RunTime:0.015749s ]
+[ sql ] [ SQL ] SELECT `name`,`title`,`tips`,`type`,`value`,`options`,`ajax_url`,`next_items`,`param`,`table`,`level`,`key`,`option`,`ak`,`format` FROM `ien_admin_config` WHERE  `group` = 'base'  AND `status` = 1 ORDER BY sort asc,id asc [ RunTime:0.017117s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_attachment` [ RunTime:0.023467s ]
+[ sql ] [ SQL ] SELECT `path` FROM `ien_admin_attachment` WHERE  `id` = 376 LIMIT 1 [ RunTime:0.019796s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_user` [ RunTime:0.019489s ]
+[ sql ] [ SQL ] SELECT `avatar` FROM `ien_admin_user` WHERE  `id` = 107 LIMIT 1 [ RunTime:0.017641s ]
+[ sql ] [ SQL ] SELECT `path` FROM `ien_admin_attachment` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.018520s ]
+[ sql ] [ SQL ] SELECT `path` FROM `ien_admin_attachment` WHERE  `id` = 376 LIMIT 1 [ RunTime:0.019748s ]
+[ sql ] [ SQL ] SELECT `path`,`thumb` FROM `ien_admin_attachment` WHERE  `id` = 376 LIMIT 1 [ RunTime:0.019605s ]
+[ sql ] [ SQL ] SELECT `path` FROM `ien_admin_attachment` WHERE  `id` = 398 LIMIT 1 [ RunTime:0.018165s ]
+[ sql ] [ SQL ] SELECT `path`,`thumb` FROM `ien_admin_attachment` WHERE  `id` = 398 LIMIT 1 [ RunTime:0.015945s ]
+---------------------------------------------------------------
+[ 2017-12-21T10:10:14+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/cms
+[ info ] local.manhua.com/index.php/cms [运行时间：1.500080s][吞吐率：0.67req/s] [内存消耗：3,098.05kb] [文件加载：80]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LANG ] D:\manhua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cms',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jvmcjqg7vierss776ueddeuv30',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.manhua.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.108706s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Hook @app_begin [ RunTime:0.096845s ]
+[ info ] [ RUN ] app\cms\home\Index->index[ D:\manhua\application\cms\home\Index.php ]
+[ info ] [ VIEW ] D:\manhua/application/cms\view\index\index.html [ array (
+  0 => 'share',
+  1 => 'action',
+  2 => 'controller',
+  3 => 'free_limit',
+  4 => 'banner_list',
+  5 => 'notice_list',
+  6 => 'zhubian_list',
+  7 => 'daily_list',
+  8 => 'free_book',
+  9 => 'category',
+  10 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024565s ] mysql:dbname=comic_huotun_com;host=39.108.119.232;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_config` [ RunTime:0.016450s ]
+[ sql ] [ SQL ] SELECT `name`,`value`,`type` FROM `ien_admin_config` [ RunTime:0.015727s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_module` [ RunTime:0.015266s ]
+[ sql ] [ SQL ] SELECT `name`,`config` FROM `ien_admin_module` WHERE  `config` <> '' [ RunTime:0.015993s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_hook` [ RunTime:0.014777s ]
+[ sql ] [ SQL ] SELECT `name`,`status` FROM `ien_admin_hook` WHERE  `status` = 1 [ RunTime:0.014932s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_plugin` [ RunTime:0.015470s ]
+[ sql ] [ SQL ] SELECT `name`,`status` FROM `ien_admin_plugin` WHERE  `status` = 1 [ RunTime:0.014905s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_hook_plugin` [ RunTime:0.014637s ]
+[ sql ] [ SQL ] SELECT * FROM `ien_admin_hook_plugin` WHERE  `status` = 1 ORDER BY hook,sort [ RunTime:0.015194s ]
+[ sql ] [ SQL ] SELECT `config` FROM `ien_admin_module` WHERE  `name` = 'wechat' LIMIT 1 [ RunTime:0.015246s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_attachment` [ RunTime:0.015728s ]
+[ sql ] [ SQL ] SELECT `path`,`thumb` FROM `ien_admin_attachment` WHERE  `id` = 376 LIMIT 1 [ RunTime:0.015566s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_user` [ RunTime:0.015848s ]
+[ sql ] [ SQL ] SELECT * FROM `ien_admin_user` WHERE  `openid` = 'oJFojwFUdhQux1fQ44neMMmfroDk' LIMIT 1 [ RunTime:0.016524s ]
+[ sql ] [ SQL ] UPDATE `ien_admin_user`  SET `last_login_time`=1513822213,`last_login_ip`=2130706433  WHERE  `id` = 107 [ RunTime:0.024194s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_user_log` [ RunTime:0.015175s ]
+[ sql ] [ SQL ] INSERT INTO `ien_user_log` (`uid` , `openid` , `login_ip` , `create_time`) VALUES (107 , 'oJFojwFUdhQux1fQ44neMMmfroDk' , 2130706433 , 1513822213) [ RunTime:0.018597s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_day_log` [ RunTime:0.021058s ]
+[ sql ] [ SQL ] SELECT * FROM `ien_day_log` WHERE  `addtime` = '2017-12-21' LIMIT 1 [ RunTime:0.020209s ]
+[ sql ] [ SQL ] INSERT INTO `ien_day_log` (`addtime` , `click` , `pv`) VALUES ('2017-12-21' , 0 , 0) [ RunTime:0.016710s ]
+[ sql ] [ SQL ] UPDATE `ien_day_log`  SET `click`=click+1  WHERE  `addtime` = '2017-12-21' [ RunTime:0.016212s ]
+[ sql ] [ SQL ] UPDATE `ien_day_log`  SET `pv`=pv+1  WHERE  `addtime` = '2017-12-21' [ RunTime:0.015799s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_agent` [ RunTime:0.016176s ]
+[ sql ] [ SQL ] UPDATE `ien_agent`  SET `pv`=pv+1  WHERE  `id` = 3 [ RunTime:0.122072s ]
+[ sql ] [ SQL ] SELECT * FROM `ien_admin_user` WHERE  `openid` = 'oJFojwFUdhQux1fQ44neMMmfroDk' LIMIT 1 [ RunTime:0.016428s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_cms_field` [ RunTime:0.015546s ]
+[ sql ] [ SQL ] SELECT `options` FROM `ien_cms_field` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.016065s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_cms_slider` [ RunTime:0.015314s ]
+[ sql ] [ SQL ] SELECT `ien_cms_slider`.`id`,`ien_cms_slider`.`title`,`ien_cms_slider`.`cover`,`ien_cms_slider`.`url`,`ien_cms_slider`.`bid` FROM `ien_cms_slider` `ien_cms_slider` WHERE  (  status=1 ) ORDER BY sort desc,update_time desc [ RunTime:0.015890s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_rec_admin` [ RunTime:0.015011s ]
+[ sql ] [ SQL ] SELECT `list_num` FROM `ien_rec_admin` WHERE  `rec` = 1 LIMIT 1 [ RunTime:0.014726s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_cartoon` [ RunTime:0.028127s ]
+[ sql ] [ SQL ] SELECT * FROM `ien_cartoon` `cartoon` LEFT JOIN `ien_rec_cartoon` `rec` ON `cartoon`.`id`=`rec`.`cid` WHERE  (  cartoon.status=1 )  AND (  FIND_IN_SET( '1', cartoon.rec) )  AND (  rec.rid=1 ) ORDER BY cartoon.sort desc LIMIT 2 [ RunTime:0.026743s ]
+[ sql ] [ SQL ] SELECT `name` FROM `ien_rec_admin` WHERE  `rec` = 1 LIMIT 1 [ RunTime:0.016017s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_cms_notice` [ RunTime:0.016127s ]
+[ sql ] [ SQL ] SELECT `ien_cms_notice`.`id`,`ien_cms_notice`.`title`,`ien_cms_notice`.`url`,`ien_cms_notice`.`bid` FROM `ien_cms_notice` `ien_cms_notice` WHERE  (  status=1 ) ORDER BY `ien_cms_notice`.`id`  desc [ RunTime:0.015253s ]
+[ sql ] [ SQL ] SELECT `list_num` FROM `ien_rec_admin` WHERE  `rec` = 0 LIMIT 1 [ RunTime:0.015283s ]
+[ sql ] [ SQL ] SELECT `cartoon`.`id`,`cartoon`.`title`,`cartoon`.`model`,`cartoon`.`sort`,`cartoon`.`mold`,`cartoon`.`author`,`cartoon`.`desc`,`cartoon`.`image`,`cartoon`.`view`,`rec`.`sort` FROM `ien_cartoon` `cartoon` LEFT JOIN `ien_rec_cartoon` `rec` ON `cartoon`.`id`=`rec`.`cid` WHERE  (  cartoon.status=1 )  AND (  FIND_IN_SET( '0', cartoon.rec) )  AND (  rec.rid=0 ) ORDER BY cartoon.sort desc LIMIT 5 [ RunTime:0.015164s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_tj_admin` [ RunTime:0.015242s ]
+[ sql ] [ SQL ] SELECT `name` FROM `ien_tj_admin` WHERE  `tj` = 2 LIMIT 1 [ RunTime:0.016052s ]
+[ sql ] [ SQL ] SELECT `list_num` FROM `ien_tj_admin` WHERE  `tj` = 3 LIMIT 1 [ RunTime:0.015235s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_book` [ RunTime:0.017513s ]
+[ sql ] [ SQL ] SELECT `tjbook`.`sort`,`book`.`id`,(book.jpv+ifnull(pvt.pv,0)) as pv,`book`.`title`,`book`.`jpv`,`book`.`zuozhe`,`book`.`zishu`,`book`.`image`,`book`.`desc`,`book`.`model`,`book`.`cover`,`book`.`tstype`,`book`.`recommend` FROM `ien_book` `book` LEFT JOIN `ien_book_pv` `pvt` ON `book`.`id`=`pvt`.`bid` LEFT JOIN `ien_tj_book` `tjbook` ON `book`.`id`=`tjbook`.`bid` WHERE  (  book.status=1 )  AND (  FIND_IN_SET( '3', book.tj) )  AND (  tjbook.tjid=3 ) ORDER BY sort desc,pv desc LIMIT 5 [ RunTime:0.025016s ]
+[ sql ] [ SQL ] SELECT `name` FROM `ien_tj_admin` WHERE  `tj` = 3 LIMIT 1 [ RunTime:0.015292s ]
+[ sql ] [ SQL ] select id,start_time,end_time from ien_free_limit where start_time < 1513822213 and (end_time > 1513822213 or end_time=0) and status=1 [ RunTime:0.026522s ]
+[ sql ] [ SQL ] select price,packsell,title,zuozhe,image,recommend,a.desc,zhishu,model,cover,b.sort,b.bid id from  ien_book a right join
+        (select distinct bid,sort from ien_free_limit_book where xsid=89 and type=0 group by bid) b on a.id=b.bid  order by b.sort desc,id desc [ RunTime:0.018148s ]
+[ sql ] [ SQL ] select price,packsell,title,zuozhe,image,a.desc,zhishu,model,cover,recommend,b.sort,b.bid id,c.zishu from  ien_book a right join
+                    (select distinct bid,sort from ien_free_limit_book where xsid=89 and type=0 group by bid) b on a.id=b.bid left join (select bid,sum(zishu) zishu from ien_chapter where bid in (15,9,3) and isvip=1 group by bid) c on a.id=c.bid order by sort desc,id desc [ RunTime:0.415308s ]
+[ error ] [8]未定义数组索引: is_save_last_login_time[D:\manhua\application\cms\home\Common.php:45]
+[ error ] [8]未定义数组下标: 1[D:\manhua\application\cms\home\Common.php:63]
+[ error ] [8]A session had already been started - ignoring session_start()[D:\manhua\application\cms\home\Index.php:31]
+[ error ] [8]未定义变量: girl_list_1[D:\manhua\application\cms\home\Index.php:98]
+[ error ] [8]未定义变量: girl_list_1[D:\manhua\application\cms\home\Index.php:101]
+[ error ] [2]Invalid argument supplied for foreach()[D:\manhua\application\cms\home\Index.php:101]
+[ error ] [8]未定义变量: zhubian_list[D:\manhua\application\cms\home\Index.php:207]
+[ error ] [8]未定义数组索引: zid[D:\manhua\runtime\temp\c8113818df4e398ee7df9fc819bc57c7.php:164]
+---------------------------------------------------------------
+[ 2017-12-21T10:11:23+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/cms
+[ info ] local.manhua.com/index.php/cms [运行时间：0.817293s][吞吐率：1.22req/s] [内存消耗：2,931.34kb] [文件加载：78]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LANG ] D:\manhua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cms',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jvmcjqg7vierss776ueddeuv30',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.manhua.com/index.php/cms',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.manhua.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.102786s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Hook @app_begin [ RunTime:0.092020s ]
+[ info ] [ RUN ] app\cms\home\Index->index[ D:\manhua\application\cms\home\Index.php ]
+[ info ] [ VIEW ] D:\manhua/application/cms\view\index\index.html [ array (
+  0 => 'share',
+  1 => 'action',
+  2 => 'controller',
+  3 => 'free_limit',
+  4 => 'banner_list',
+  5 => 'notice_list',
+  6 => 'zhubian_list',
+  7 => 'daily_list',
+  8 => 'free_book',
+  9 => 'category',
+  10 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.027781s ] mysql:dbname=comic_huotun_com;host=39.108.119.232;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_config` [ RunTime:0.014440s ]
+[ sql ] [ SQL ] SELECT `name`,`value`,`type` FROM `ien_admin_config` [ RunTime:0.014854s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_module` [ RunTime:0.017940s ]
+[ sql ] [ SQL ] SELECT `name`,`config` FROM `ien_admin_module` WHERE  `config` <> '' [ RunTime:0.016343s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_hook` [ RunTime:0.014721s ]
+[ sql ] [ SQL ] SELECT `name`,`status` FROM `ien_admin_hook` WHERE  `status` = 1 [ RunTime:0.014481s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_plugin` [ RunTime:0.014557s ]
+[ sql ] [ SQL ] SELECT `name`,`status` FROM `ien_admin_plugin` WHERE  `status` = 1 [ RunTime:0.014050s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_hook_plugin` [ RunTime:0.014372s ]
+[ sql ] [ SQL ] SELECT * FROM `ien_admin_hook_plugin` WHERE  `status` = 1 ORDER BY hook,sort [ RunTime:0.015060s ]
+[ sql ] [ SQL ] SELECT `config` FROM `ien_admin_module` WHERE  `name` = 'wechat' LIMIT 1 [ RunTime:0.016680s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_attachment` [ RunTime:0.019102s ]
+[ sql ] [ SQL ] SELECT `path`,`thumb` FROM `ien_admin_attachment` WHERE  `id` = 376 LIMIT 1 [ RunTime:0.018870s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_user` [ RunTime:0.019810s ]
+[ sql ] [ SQL ] SELECT * FROM `ien_admin_user` WHERE  `openid` = 'oJFojwFUdhQux1fQ44neMMmfroDk' LIMIT 1 [ RunTime:0.020837s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_day_log` [ RunTime:0.017010s ]
+[ sql ] [ SQL ] SELECT * FROM `ien_day_log` WHERE  `addtime` = '2017-12-21' LIMIT 1 [ RunTime:0.015557s ]
+[ sql ] [ SQL ] UPDATE `ien_day_log`  SET `click`=click+1  WHERE  `addtime` = '2017-12-21' [ RunTime:0.024707s ]
+[ sql ] [ SQL ] UPDATE `ien_day_log`  SET `pv`=pv+1  WHERE  `addtime` = '2017-12-21' [ RunTime:0.015345s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_agent` [ RunTime:0.015546s ]
+[ sql ] [ SQL ] UPDATE `ien_agent`  SET `pv`=pv+1  WHERE  `id` = 3 [ RunTime:0.016713s ]
+[ sql ] [ SQL ] SELECT * FROM `ien_admin_user` WHERE  `openid` = 'oJFojwFUdhQux1fQ44neMMmfroDk' LIMIT 1 [ RunTime:0.018468s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_cms_field` [ RunTime:0.015502s ]
+[ sql ] [ SQL ] SELECT `options` FROM `ien_cms_field` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.014162s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_cms_slider` [ RunTime:0.014694s ]
+[ sql ] [ SQL ] SELECT `ien_cms_slider`.`id`,`ien_cms_slider`.`title`,`ien_cms_slider`.`cover`,`ien_cms_slider`.`url`,`ien_cms_slider`.`bid` FROM `ien_cms_slider` `ien_cms_slider` WHERE  (  status=1 ) ORDER BY sort desc,update_time desc [ RunTime:0.015207s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_rec_admin` [ RunTime:0.014331s ]
+[ sql ] [ SQL ] SELECT `list_num` FROM `ien_rec_admin` WHERE  `rec` = 1 LIMIT 1 [ RunTime:0.018229s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_cartoon` [ RunTime:0.016546s ]
+[ sql ] [ SQL ] SELECT * FROM `ien_cartoon` `cartoon` LEFT JOIN `ien_rec_cartoon` `rec` ON `cartoon`.`id`=`rec`.`cid` WHERE  (  cartoon.status=1 )  AND (  FIND_IN_SET( '1', cartoon.rec) )  AND (  rec.rid=1 ) ORDER BY cartoon.sort desc LIMIT 2 [ RunTime:0.017663s ]
+[ sql ] [ SQL ] SELECT `name` FROM `ien_rec_admin` WHERE  `rec` = 1 LIMIT 1 [ RunTime:0.014310s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_cms_notice` [ RunTime:0.014848s ]
+[ sql ] [ SQL ] SELECT `ien_cms_notice`.`id`,`ien_cms_notice`.`title`,`ien_cms_notice`.`url`,`ien_cms_notice`.`bid` FROM `ien_cms_notice` `ien_cms_notice` WHERE  (  status=1 ) ORDER BY `ien_cms_notice`.`id`  desc [ RunTime:0.016286s ]
+[ sql ] [ SQL ] SELECT `list_num` FROM `ien_rec_admin` WHERE  `rec` = 0 LIMIT 1 [ RunTime:0.014449s ]
+[ sql ] [ SQL ] SELECT `cartoon`.`id`,`cartoon`.`title`,`cartoon`.`model`,`cartoon`.`sort`,`cartoon`.`mold`,`cartoon`.`author`,`cartoon`.`desc`,`cartoon`.`image`,`cartoon`.`view`,`rec`.`sort` FROM `ien_cartoon` `cartoon` LEFT JOIN `ien_rec_cartoon` `rec` ON `cartoon`.`id`=`rec`.`cid` WHERE  (  cartoon.status=1 )  AND (  FIND_IN_SET( '0', cartoon.rec) )  AND (  rec.rid=0 ) ORDER BY cartoon.sort desc LIMIT 5 [ RunTime:0.017463s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_tj_admin` [ RunTime:0.014971s ]
+[ sql ] [ SQL ] SELECT `name` FROM `ien_tj_admin` WHERE  `tj` = 2 LIMIT 1 [ RunTime:0.015299s ]
+[ sql ] [ SQL ] SELECT `list_num` FROM `ien_tj_admin` WHERE  `tj` = 3 LIMIT 1 [ RunTime:0.015371s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_book` [ RunTime:0.017791s ]
+[ sql ] [ SQL ] SELECT `tjbook`.`sort`,`book`.`id`,(book.jpv+ifnull(pvt.pv,0)) as pv,`book`.`title`,`book`.`jpv`,`book`.`zuozhe`,`book`.`zishu`,`book`.`image`,`book`.`desc`,`book`.`model`,`book`.`cover`,`book`.`tstype`,`book`.`recommend` FROM `ien_book` `book` LEFT JOIN `ien_book_pv` `pvt` ON `book`.`id`=`pvt`.`bid` LEFT JOIN `ien_tj_book` `tjbook` ON `book`.`id`=`tjbook`.`bid` WHERE  (  book.status=1 )  AND (  FIND_IN_SET( '3', book.tj) )  AND (  tjbook.tjid=3 ) ORDER BY sort desc,pv desc LIMIT 5 [ RunTime:0.017203s ]
+[ sql ] [ SQL ] SELECT `name` FROM `ien_tj_admin` WHERE  `tj` = 3 LIMIT 1 [ RunTime:0.014681s ]
+[ sql ] [ SQL ] select id,start_time,end_time from ien_free_limit where start_time < 1513822283 and (end_time > 1513822283 or end_time=0) and status=1 [ RunTime:0.016380s ]
+[ sql ] [ SQL ] select price,packsell,title,zuozhe,image,recommend,a.desc,zhishu,model,cover,b.sort,b.bid id from  ien_book a right join
+        (select distinct bid,sort from ien_free_limit_book where xsid=89 and type=0 group by bid) b on a.id=b.bid  order by b.sort desc,id desc [ RunTime:0.015392s ]
+[ sql ] [ SQL ] select price,packsell,title,zuozhe,image,a.desc,zhishu,model,cover,recommend,b.sort,b.bid id,c.zishu from  ien_book a right join
+                    (select distinct bid,sort from ien_free_limit_book where xsid=89 and type=0 group by bid) b on a.id=b.bid left join (select bid,sum(zishu) zishu from ien_chapter where bid in (15,9,3) and isvip=1 group by bid) c on a.id=c.bid order by sort desc,id desc [ RunTime:0.018767s ]
+[ error ] [8]未定义数组下标: 1[D:\manhua\application\cms\home\Common.php:63]
+[ error ] [8]A session had already been started - ignoring session_start()[D:\manhua\application\cms\home\Index.php:31]
+[ error ] [8]未定义变量: girl_list_1[D:\manhua\application\cms\home\Index.php:98]
+[ error ] [8]未定义变量: girl_list_1[D:\manhua\application\cms\home\Index.php:101]
+[ error ] [2]Invalid argument supplied for foreach()[D:\manhua\application\cms\home\Index.php:101]
+[ error ] [8]未定义变量: zhubian_list[D:\manhua\application\cms\home\Index.php:207]
+[ error ] [8]未定义数组索引: zid[D:\manhua\runtime\temp\c8113818df4e398ee7df9fc819bc57c7.php:164]
+---------------------------------------------------------------
+[ 2017-12-21T10:12:13+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/cms
+[ info ] local.manhua.com/index.php/cms [运行时间：0.762669s][吞吐率：1.31req/s] [内存消耗：2,931.34kb] [文件加载：78]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LANG ] D:\manhua\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cms',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jvmcjqg7vierss776ueddeuv30',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.manhua.com/index.php/cms',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'local.manhua.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.091595s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Hook @app_begin [ RunTime:0.092585s ]
+[ info ] [ RUN ] app\cms\home\Index->index[ D:\manhua\application\cms\home\Index.php ]
+[ info ] [ VIEW ] D:\manhua/application/cms\view\index\index.html [ array (
+  0 => 'share',
+  1 => 'action',
+  2 => 'controller',
+  3 => 'free_limit',
+  4 => 'banner_list',
+  5 => 'notice_list',
+  6 => 'zhubian_list',
+  7 => 'daily_list',
+  8 => 'free_book',
+  9 => 'category',
+  10 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024364s ] mysql:dbname=comic_huotun_com;host=39.108.119.232;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_config` [ RunTime:0.014646s ]
+[ sql ] [ SQL ] SELECT `name`,`value`,`type` FROM `ien_admin_config` [ RunTime:0.013794s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_module` [ RunTime:0.014737s ]
+[ sql ] [ SQL ] SELECT `name`,`config` FROM `ien_admin_module` WHERE  `config` <> '' [ RunTime:0.014519s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_hook` [ RunTime:0.016571s ]
+[ sql ] [ SQL ] SELECT `name`,`status` FROM `ien_admin_hook` WHERE  `status` = 1 [ RunTime:0.013754s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_plugin` [ RunTime:0.014801s ]
+[ sql ] [ SQL ] SELECT `name`,`status` FROM `ien_admin_plugin` WHERE  `status` = 1 [ RunTime:0.014372s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_hook_plugin` [ RunTime:0.014968s ]
+[ sql ] [ SQL ] SELECT * FROM `ien_admin_hook_plugin` WHERE  `status` = 1 ORDER BY hook,sort [ RunTime:0.013933s ]
+[ sql ] [ SQL ] SELECT `config` FROM `ien_admin_module` WHERE  `name` = 'wechat' LIMIT 1 [ RunTime:0.013518s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_attachment` [ RunTime:0.014800s ]
+[ sql ] [ SQL ] SELECT `path`,`thumb` FROM `ien_admin_attachment` WHERE  `id` = 376 LIMIT 1 [ RunTime:0.014279s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_admin_user` [ RunTime:0.015564s ]
+[ sql ] [ SQL ] SELECT * FROM `ien_admin_user` WHERE  `openid` = 'oJFojwFUdhQux1fQ44neMMmfroDk' LIMIT 1 [ RunTime:0.016101s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_day_log` [ RunTime:0.018623s ]
+[ sql ] [ SQL ] SELECT * FROM `ien_day_log` WHERE  `addtime` = '2017-12-21' LIMIT 1 [ RunTime:0.014019s ]
+[ sql ] [ SQL ] UPDATE `ien_day_log`  SET `click`=click+1  WHERE  `addtime` = '2017-12-21' [ RunTime:0.025217s ]
+[ sql ] [ SQL ] UPDATE `ien_day_log`  SET `pv`=pv+1  WHERE  `addtime` = '2017-12-21' [ RunTime:0.019598s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_agent` [ RunTime:0.016213s ]
+[ sql ] [ SQL ] UPDATE `ien_agent`  SET `pv`=pv+1  WHERE  `id` = 3 [ RunTime:0.016796s ]
+[ sql ] [ SQL ] SELECT * FROM `ien_admin_user` WHERE  `openid` = 'oJFojwFUdhQux1fQ44neMMmfroDk' LIMIT 1 [ RunTime:0.015852s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_cms_field` [ RunTime:0.017646s ]
+[ sql ] [ SQL ] SELECT `options` FROM `ien_cms_field` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.013279s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_cms_slider` [ RunTime:0.015420s ]
+[ sql ] [ SQL ] SELECT `ien_cms_slider`.`id`,`ien_cms_slider`.`title`,`ien_cms_slider`.`cover`,`ien_cms_slider`.`url`,`ien_cms_slider`.`bid` FROM `ien_cms_slider` `ien_cms_slider` WHERE  (  status=1 ) ORDER BY sort desc,update_time desc [ RunTime:0.014489s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_rec_admin` [ RunTime:0.013824s ]
+[ sql ] [ SQL ] SELECT `list_num` FROM `ien_rec_admin` WHERE  `rec` = 1 LIMIT 1 [ RunTime:0.013182s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_cartoon` [ RunTime:0.013940s ]
+[ sql ] [ SQL ] SELECT * FROM `ien_cartoon` `cartoon` LEFT JOIN `ien_rec_cartoon` `rec` ON `cartoon`.`id`=`rec`.`cid` WHERE  (  cartoon.status=1 )  AND (  FIND_IN_SET( '1', cartoon.rec) )  AND (  rec.rid=1 ) ORDER BY cartoon.sort desc LIMIT 2 [ RunTime:0.014968s ]
+[ sql ] [ SQL ] SELECT `name` FROM `ien_rec_admin` WHERE  `rec` = 1 LIMIT 1 [ RunTime:0.016441s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_cms_notice` [ RunTime:0.014045s ]
+[ sql ] [ SQL ] SELECT `ien_cms_notice`.`id`,`ien_cms_notice`.`title`,`ien_cms_notice`.`url`,`ien_cms_notice`.`bid` FROM `ien_cms_notice` `ien_cms_notice` WHERE  (  status=1 ) ORDER BY `ien_cms_notice`.`id`  desc [ RunTime:0.014424s ]
+[ sql ] [ SQL ] SELECT `list_num` FROM `ien_rec_admin` WHERE  `rec` = 0 LIMIT 1 [ RunTime:0.013940s ]
+[ sql ] [ SQL ] SELECT `cartoon`.`id`,`cartoon`.`title`,`cartoon`.`model`,`cartoon`.`sort`,`cartoon`.`mold`,`cartoon`.`author`,`cartoon`.`desc`,`cartoon`.`image`,`cartoon`.`view`,`rec`.`sort` FROM `ien_cartoon` `cartoon` LEFT JOIN `ien_rec_cartoon` `rec` ON `cartoon`.`id`=`rec`.`cid` WHERE  (  cartoon.status=1 )  AND (  FIND_IN_SET( '0', cartoon.rec) )  AND (  rec.rid=0 ) ORDER BY cartoon.sort desc LIMIT 5 [ RunTime:0.014458s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_tj_admin` [ RunTime:0.014710s ]
+[ sql ] [ SQL ] SELECT `name` FROM `ien_tj_admin` WHERE  `tj` = 2 LIMIT 1 [ RunTime:0.014007s ]
+[ sql ] [ SQL ] SELECT `list_num` FROM `ien_tj_admin` WHERE  `tj` = 3 LIMIT 1 [ RunTime:0.013863s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ien_book` [ RunTime:0.014859s ]
+[ sql ] [ SQL ] SELECT `tjbook`.`sort`,`book`.`id`,(book.jpv+ifnull(pvt.pv,0)) as pv,`book`.`title`,`book`.`jpv`,`book`.`zuozhe`,`book`.`zishu`,`book`.`image`,`book`.`desc`,`book`.`model`,`book`.`cover`,`book`.`tstype`,`book`.`recommend` FROM `ien_book` `book` LEFT JOIN `ien_book_pv` `pvt` ON `book`.`id`=`pvt`.`bid` LEFT JOIN `ien_tj_book` `tjbook` ON `book`.`id`=`tjbook`.`bid` WHERE  (  book.status=1 )  AND (  FIND_IN_SET( '3', book.tj) )  AND (  tjbook.tjid=3 ) ORDER BY sort desc,pv desc LIMIT 5 [ RunTime:0.016143s ]
+[ sql ] [ SQL ] SELECT `name` FROM `ien_tj_admin` WHERE  `tj` = 3 LIMIT 1 [ RunTime:0.016491s ]
+[ sql ] [ SQL ] select id,start_time,end_time from ien_free_limit where start_time < 1513822333 and (end_time > 1513822333 or end_time=0) and status=1 [ RunTime:0.016325s ]
+[ sql ] [ SQL ] select price,packsell,title,zuozhe,image,recommend,a.desc,zhishu,model,cover,b.sort,b.bid id from  ien_book a right join
+        (select distinct bid,sort from ien_free_limit_book where xsid=89 and type=0 group by bid) b on a.id=b.bid  order by b.sort desc,id desc [ RunTime:0.015027s ]
+[ sql ] [ SQL ] select price,packsell,title,zuozhe,image,a.desc,zhishu,model,cover,recommend,b.sort,b.bid id,c.zishu from  ien_book a right join
+                    (select distinct bid,sort from ien_free_limit_book where xsid=89 and type=0 group by bid) b on a.id=b.bid left join (select bid,sum(zishu) zishu from ien_chapter where bid in (15,9,3) and isvip=1 group by bid) c on a.id=c.bid order by sort desc,id desc [ RunTime:0.018767s ]
+[ error ] [8]未定义数组下标: 1[D:\manhua\application\cms\home\Common.php:63]
+[ error ] [8]A session had already been started - ignoring session_start()[D:\manhua\application\cms\home\Index.php:31]
+[ error ] [8]未定义变量: girl_list_1[D:\manhua\application\cms\home\Index.php:98]
+[ error ] [8]未定义变量: girl_list_1[D:\manhua\application\cms\home\Index.php:101]
+[ error ] [2]Invalid argument supplied for foreach()[D:\manhua\application\cms\home\Index.php:101]
+[ error ] [8]未定义变量: zhubian_list[D:\manhua\application\cms\home\Index.php:207]
+[ error ] [8]未定义数组索引: zid[D:\manhua\runtime\temp\c8113818df4e398ee7df9fc819bc57c7.php:164]
