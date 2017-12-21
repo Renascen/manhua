@@ -1,0 +1,142 @@
+{extend name="public:base" /}
+		{block name="link"}
+		<link rel="stylesheet" type="text/css" href="__MODULE_CSS__/ranking.css" />
+		{/block}
+	{block name="style"}
+		<style type="text/css">
+			.list_thr{
+				width:0.8rem;
+			}
+		</style>
+	{/block}
+{block name="nav"}
+		<nav id="nav">
+			<div class="">
+				<a href="javascript:void(0)" class="choose_active">男生榜</a>
+			</div>
+			<div class="">
+				<a href="javascript:void(0)">女生榜</a>
+			</div>
+			<div class="">
+				<a href="javascript:void(0)">新作榜</a>
+			</div>
+			<div class="">
+				<a href="javascript:void(0)">畅销榜</a>
+			</div>
+		</nav>
+{/block}
+{block name="main"}
+		<div class="search_content">
+			<div class="search_list">
+				<a href="">
+					<div class="fl rank_list">
+						<img src="__MODULE_IMG__/img-png/Champion.png"/>
+					</div>
+					<div class="fl search_img">
+						<img src="__MODULE_IMG__/img-big/33.jpg"/>
+					</div>
+					<div class="fl search_list_r">
+						<p class="list_r_one">黄金神威</p>
+						<p class="list_r_upd font-hid">
+							更新至：第二季 第9话（下） 老同学
+						</p>
+						<p class="list_r_two">
+							<span>少年</span>
+							<span>热血</span>
+							<span>三国</span>
+						</p>
+						<p class="list_r_thr">
+							<img src="__MODULE_IMG__/img-png/touxiangtubiao.png"/>
+							野田サトル
+						</p>
+						
+					</div>
+				</a>
+			</div>
+			<div class="search_list">
+				<a href="">
+					<div class="fl rank_list">
+						<img src="__MODULE_IMG__/img-png/Runner-up.png"/>
+					</div>
+					<div class="fl search_img">
+						<img src="__MODULE_IMG__/img-big/33.jpg"/>
+					</div>
+					<div class="fl search_list_r">
+						<p class="list_r_one">黄金神威</p>
+						<p class="list_r_upd font-hid">
+							更新至：第二季 第9话（下） 老同学
+						</p>
+						<p class="list_r_two">
+							<span>少年</span>
+							<span>热血</span>
+							<span>三国</span>
+						</p>
+						<p class="list_r_thr">
+							<img src="__MODULE_IMG__/img-png/touxiangtubiao.png"/>
+							野田サトル
+						</p>
+					</div>
+				</a>
+			</div>
+			<div class="search_list">
+				<a href="">
+					<div class="fl rank_list">
+						<img src="__MODULE_IMG__/img-png/Third.png"/>
+					</div>
+					<div class="fl search_img">
+						<img src="__MODULE_IMG__/img-big/33.jpg"/>
+					</div>
+					<div class="fl search_list_r">
+						<p class="list_r_one">黄金神威</p>
+						<p class="list_r_upd font-hid">
+							更新至：第二季 第9话（下） 老同学
+						</p>
+						<p class="list_r_two">
+							<span>少年</span>
+							<span>热血</span>
+							<span>三国</span>
+						</p>
+						<p class="list_r_thr">
+							<img src="__MODULE_IMG__/img-png/touxiangtubiao.png"/>
+							野田サトル
+						</p>
+					</div>
+				</a>
+			</div>
+			<div class="search_list">
+				<a href="">
+					<div class="fl rank_list">
+						<span>4</span>
+					</div>
+					<div class="fl search_img">
+						<img src="__MODULE_IMG__/img-big/33.jpg"/>
+					</div>
+					<div class="fl search_list_r">
+						<p class="list_r_one">黄金神威</p>
+						<p class="list_r_upd font-hid">
+							更新至：第二季 第9话（下） 老同学
+						</p>
+						<p class="list_r_two">
+							<span>少年</span>
+							<span>热血</span>
+							<span>三国</span>
+						</p>
+						<p class="list_r_thr">
+							<img src="__MODULE_IMG__/img-png/touxiangtubiao.png"/>
+							野田サトル
+						</p>
+					</div>
+				</a>
+			</div>
+		</div>
+{/block}
+{block name="page-script"}
+<script type="text/javascript">
+    $("#nav").on("click","div>a",function(){
+    	$("#nav>div>a").removeClass('choose_active');
+        $(this).addClass('choose_active')
+
+
+    })
+</script>
+{/block}
