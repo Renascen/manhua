@@ -1,4 +1,0 @@
-IeasynetPHP
-===============
-
-# flash目录

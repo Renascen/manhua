@@ -1,3 +1,0 @@
-签名原串:oid_partner=201708210000817312&sign_type=RSA
-签名:Y6x6hiXFxAHiY9cYYjRHgj5AKyOUq4hfnIcZYP3HG99Mq+EiiR3zVd/uWvir+C+VWpzqH8FM4YxNvALzNyRMO4PB39cePLtHa7U9Fkf4K82WhRCrxkhT0jPPoE6H/Uu86uv6d6WEde41XCVguVJv990WyOALVy/Ma1RMUDCrJnc=
-返回值:{"ret_code":"900012","ret_msg":"请求参数错误:[no_order]"}

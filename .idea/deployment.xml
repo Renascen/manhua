@@ -5,7 +5,6 @@
       <paths name="dlmh">
         <serverdata>
           <mappings>
-            <mapping local="D:/dlmh" web="/" />
             <mapping local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>

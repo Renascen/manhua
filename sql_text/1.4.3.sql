@@ -1,1 +1,0 @@
-ALTER TABLE `ien_consume_log` ADD INDEX uid_bid_zid (uid,bid,zid);
